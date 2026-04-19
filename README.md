@@ -237,7 +237,9 @@ npm run db:migrate
 
 ## Licenca
 
-No momento, este projeto **ainda nao possui uma licenca definida** no repositorio.
+Este projeto esta licenciado sob a **MIT License**.
+
+Consulte o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
 ## Contato
 

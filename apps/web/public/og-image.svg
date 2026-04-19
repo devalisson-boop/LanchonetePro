@@ -1,0 +1,44 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#08111F"/>
+  <circle cx="1050" cy="112" r="180" fill="#12233A"/>
+  <circle cx="108" cy="552" r="156" fill="#0F1D31"/>
+  <rect x="70" y="74" width="1060" height="482" rx="34" fill="url(#panel)"/>
+  <rect x="118" y="118" width="206" height="206" rx="40" fill="#0F172A"/>
+  <rect x="166" y="168" width="110" height="24" rx="12" fill="#F59E0B"/>
+  <rect x="154" y="199" width="134" height="16" rx="8" fill="#F8FAFC"/>
+  <rect x="172" y="222" width="98" height="18" rx="9" fill="#FB7185"/>
+  <rect x="160" y="248" width="122" height="24" rx="12" fill="#F59E0B"/>
+  <circle cx="193" cy="180" r="4" fill="#FFF7ED"/>
+  <circle cx="220" cy="176" r="4" fill="#FFF7ED"/>
+  <circle cx="247" cy="181" r="4" fill="#FFF7ED"/>
+  <text x="364" y="190" fill="#F8FAFC" font-family="Verdana, Arial, sans-serif" font-size="70" font-weight="700">
+    Lanchonete Pro
+  </text>
+  <text x="364" y="262" fill="#93C5FD" font-family="Verdana, Arial, sans-serif" font-size="28" font-weight="600">
+    Gestao inteligente para pedidos, caixa e estoque
+  </text>
+  <text x="118" y="402" fill="#CBD5E1" font-family="Verdana, Arial, sans-serif" font-size="30">
+    Painel web completo para operar lanchonetes com mais controle e agilidade.
+  </text>
+  <text x="118" y="452" fill="#E2E8F0" font-family="Verdana, Arial, sans-serif" font-size="24">
+    Pedidos em tempo real  |  Caixa e pagamentos  |  Estoque  |  Dashboard e relatorios
+  </text>
+  <rect x="118" y="490" width="286" height="20" rx="10" fill="#F59E0B"/>
+  <rect x="118" y="520" width="522" height="10" rx="5" fill="#274060"/>
+  <rect x="717" y="388" width="320" height="108" rx="26" fill="#0F172A"/>
+  <text x="752" y="430" fill="#FDBA74" font-family="Verdana, Arial, sans-serif" font-size="23" font-weight="700">
+    Operacao centralizada
+  </text>
+  <text x="752" y="466" fill="#F8FAFC" font-family="Verdana, Arial, sans-serif" font-size="20">
+    Frontend React, API NestJS
+  </text>
+  <text x="752" y="494" fill="#94A3B8" font-family="Verdana, Arial, sans-serif" font-size="18">
+    Supabase, PostgreSQL e deploy automatizado
+  </text>
+  <defs>
+    <linearGradient id="panel" x1="70" y1="74" x2="1130" y2="556" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10233C"/>
+      <stop offset="1" stop-color="#0A1526"/>
+    </linearGradient>
+  </defs>
+</svg>

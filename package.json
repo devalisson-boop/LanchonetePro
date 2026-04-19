@@ -1,0 +1,23 @@
+{
+  "name": "lanchonete-pro",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "dev:api": "npm run dev --workspace @lanchonete/api",
+    "dev:web": "npm run dev --workspace @lanchonete/web",
+    "lint": "npm run lint --workspaces --if-present",
+    "db:migrate": "tsx infra/scripts/apply-sql.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "pg": "^8.16.3"
+  }
+}
+

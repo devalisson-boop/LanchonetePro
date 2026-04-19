@@ -1,0 +1,43 @@
+# Deploy recomendado: Render usando dois Web Services Docker.
+# Documentacao oficial consultada:
+# - https://render.com/docs/blueprint-spec
+# - https://render.com/docs/docker
+# - https://render.com/docs/health-checks
+
+services:
+  - type: web
+    name: lanchonete-pro-api
+    runtime: docker
+    plan: free
+    autoDeployTrigger: commit
+    dockerContext: .
+    dockerfilePath: ./infra/docker/api.Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: FRONTEND_URL
+        sync: false
+      - key: DATABASE_URL
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_ANON_KEY
+        sync: false
+
+  - type: web
+    name: lanchonete-pro-web
+    runtime: docker
+    plan: free
+    autoDeployTrigger: commit
+    dockerContext: .
+    dockerfilePath: ./infra/docker/web.Dockerfile
+    envVars:
+      - key: VITE_API_URL
+        sync: false
+      - key: VITE_SUPABASE_URL
+        sync: false
+      - key: VITE_SUPABASE_ANON_KEY
+        sync: false
